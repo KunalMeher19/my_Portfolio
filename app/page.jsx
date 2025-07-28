@@ -32,7 +32,7 @@ const Page = () => {
   };
 
   const downloadResume = () => {
-    window.open("/Siddharth_Resume.pdf", "_blank");
+    window.open("/Ardhendu_Meher_FullStack_Resume_2025.pdf", "_blank");
   };
 
   const scrollToContact = () => {
