@@ -22,7 +22,7 @@ export default function SmoothScrollProvider({ children }) {
       smooth: true,
       smoothTouch: true,
       touchMultiplier: 2,
-      wheelMultiplier: 0.8,
+      wheelMultiplier: 0.95,
       normalizeWheel: true,
       infinite: false,
     });

@@ -346,7 +346,7 @@ const Page = () => {
           <div className="relative overflow-hidden rounded-xl mb-16 sm:mb-24 border border-white/5 bg-[#111111]">
             <div className="aspect-[16/9] w-full overflow-hidden relative">
               <Image
-                src="/velo.new.png"
+                src="/portfolio/velo.new.png"
                 alt="Velo.new - No code Full stack website builder builded by Ardhendu"
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 80vw"
@@ -403,7 +403,7 @@ const Page = () => {
                 title: "Codebyte",
                 description:
                   "Online Coading platform offering access to code in a collaborative environment",
-                image: "/codebyte.png",
+                image: "/portfolio/codebyte.png",
                 tech: [
                   "React.js",
                   "Node.js",
@@ -423,7 +423,7 @@ const Page = () => {
                 title: "Moody Player",
                 description:
                   "Moody detector is a live mood detecting website which will detect the mood and suggest songs according to it!",
-                image: "/moody.png",
+                image: "/portfolio/moody.png",
                 tech: ["React", "Tailwind", "Vite", "Figma"],
                 color: "#ee00ff",
                 website: "",

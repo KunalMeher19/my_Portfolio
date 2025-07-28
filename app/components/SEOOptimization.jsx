@@ -31,34 +31,31 @@ export default function SEOOptimization() {
   return (
     <>
       <div className="sr-only" aria-hidden="true">
-        <h2>About Siddharth Meena</h2>
+        <h2>About Ardhendu Abhishek Meher</h2>
         <p>
-          Siddharth Meena is a skilled full-stack developer India, with expertise in React, Next.js, 
-          Node.js, and UI/UX design. With over 3 years of experience, Siddharth has completed more than 30 projects 
-          for clients across various industries. He is the founder of Luvo Web, a web development agency that specializes 
-          in creating high-quality websites and web applications.
+          Ardhendu Abhishek Meher is a aspiring full-stack developer India, with expertise in React, vite, 
+          Node.js, express.js, and UI/UX design. With over 6+ months of experience, Ardhendu has completed more than 10 projects 
+          for clients across various industries. 
         </p>
-        <h3>Siddharth Meena's Skills</h3>
+        <h3>Ardhendu's Skills</h3>
         <ul>
-          <li>React.js and Next.js Development</li>
-          <li>Node.js Backend Development</li>
+          <li>React.js and vite Development</li>
+          <li>Node.js and Express.js Backend Development</li>
           <li>UI/UX Design and Implementation</li>
           <li>Tailwind CSS Expertise</li>
           <li>Full-Stack Web Development</li>
-          <li>C/C++ Programming</li>
-          <li>Python Development</li>
+          <li>Java Programming</li>
           <li>JavaScript and TypeScript</li>
           <li>Frontend Development</li>
           <li>Responsive Web Design</li>
         </ul>
-        <h3>Portfolio and Projects by Siddharth Meena</h3>
+        <h3>Portfolio and Projects by Ardhendu</h3>
         <p>
-          Siddharth's portfolio showcases various projects including UnchainedGPT (an AI-powered platform), 
-          Luvo Web (development agency) , Bantr (chatting app), ScaleOxPerts (Digital Marketing Company website),
-          and Interactive Bio Page.
+          Ardhendu's portfolio showcases various projects including Velo.new (an AI-powered platform), 
+          Bytecode (Online coding platform) , Moddy Player (Suggest songs according to mood), and Interactive Bio Page.
         </p>
         <h3>Contact Information</h3>
-        <p>Email: siddz.dev@gmail.com</p>
+        <p>Email: meherardhenduabhishek@gmail.com</p>
         <p>Social Media: GitHub, Twitter, Discord</p>
       </div>
     </>

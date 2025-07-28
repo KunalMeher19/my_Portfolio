@@ -11,7 +11,7 @@ const Page = () => {
     {
       title: "Velo.new - No code Full stack website builder",
       description: "An AI-powered full-stack website generator — no coding needed.Just provide a detailed prompt, and Velo.new will generate your website code in under 5 minutes. You can further refine the output by submitting additional prompts.Preview the result instantly, then download the code or upload it directly to GitHub.",
-      image: "/velo.new.png",
+      image: "/portfolio/velo.new.png",
       tech: ["vite", "React", "Node.js", "MongoDB", "Anthropic API"],
       // website: "https://lumeroo.live/",
       github: "https://github.com/KunalMeher19/Velo.new",
@@ -19,7 +19,7 @@ const Page = () => {
     {
       title: "Codebyte",
       description: "Online Coading platform offering access to code in a collaborative environment.",
-      image: "/codebyte.png",
+      image: "/portfolio/codebyte.png",
       tech: ["React.js", "Node.js", "Express.js", "Tailwind", "MongoDB", "Socket.IO", "Hono.js", "Docker", "Kubernetese"],
       // website: "https://unchainedgpt.com/",
       github: "https://github.com/KunalMeher19/v1-repl-ByteBox-",
@@ -27,7 +27,7 @@ const Page = () => {
     {
       title: "Moody Player",
       description: "Moody detector is a live mood detecting website which will detect the mood and suggest songs according to it!",
-      image: "/moody.png",
+      image: "/portfolio/moody.png",
       tech: ["React", "Tailwind", "Vite", "Figma"],
       // website: "https://luvo.siddz.com/",
       github: ""
