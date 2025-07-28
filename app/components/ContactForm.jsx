@@ -75,10 +75,10 @@ const ContactForm = () => {
     
     try {
       await emailjs.send(
-        "service_5lt93fb", // Your EmailJS service ID
-        "template_cxxitvt", // Your EmailJS template ID
+        "service_4lw8ngh", // Your EmailJS service ID
+        "template_bk9iujr", // Your EmailJS template ID
         templateParams,
-        "LkCnVmcFfXTXGYbVF" // Your EmailJS public key
+        "iHb4zg7mumpRZknKv" // Your EmailJS public key
       )
       .then((response) => {
         if (response.status === 200) {
