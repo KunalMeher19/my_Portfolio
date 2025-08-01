@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Page Not Found | Siddharth Meena - Full-Stack Developer',
-  description: 'The page you are looking for cannot be found. Return to Siddharth Meena\'s portfolio to explore projects and services offered by this full-stack developer.',
+  title: 'Page Not Found | Ardhendu Meher - Full-Stack Developer',
+  description: 'The page you are looking for cannot be found. Return to Ardhendu Meher\'s portfolio to explore projects and services offered by this full-stack developer.',
 };
 
 export default function NotFound() {
@@ -13,7 +13,7 @@ export default function NotFound() {
         
         <p className="text-white/70 mb-6">
           The page you're looking for doesn't exist or has been moved. 
-          Return to Siddharth Meena's portfolio homepage to explore projects and services.
+          Return to Ardhendu Meher's portfolio homepage to explore projects and services.
         </p>
         
         <Link 
@@ -26,15 +26,15 @@ export default function NotFound() {
 
         {/* Hidden SEO content */}
         <div className="sr-only">
-          <h2>About Siddharth Meena</h2>
+          <h2>About Ardhendu Meher</h2>
           <p>
-            Siddharth Meena is a full-stack developer with expertise in React, Next.js, Node.js, and UI/UX design.
-            Although this page couldn't be found, you can explore Siddharth's portfolio to see his work in web development,
+            Ardhendu Meher is a full-stack developer with expertise in React, Next.js, Node.js, and UI/UX design.
+            Although this page couldn't be found, you can explore Ardhendu's portfolio to see his work in web development,
             frontend design, and software engineering projects.
           </p>
           <p>
-            Siddharth offers services including web development, UI/UX design, and full-stack development solutions.
-            Contact Siddharth Meena for your next web project or development needs.
+            Ardhendu offers services including web development, UI/UX design, and full-stack development solutions.
+            Contact Ardhendu Meher for your next web project or development needs.
           </p>
         </div>
       </div>
