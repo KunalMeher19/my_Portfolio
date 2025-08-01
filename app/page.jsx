@@ -32,7 +32,7 @@ const Page = () => {
   };
 
   const downloadResume = () => {
-    window.open("/Ardhendu_Meher_FullStack_Resume_2025.pdf", "_blank");
+    window.open("/portfolio/Ardhendu_Meher_FullStack_Resume_2025.pdf", "_blank");
   };
 
   const scrollToContact = () => {
