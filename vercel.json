@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/sign",
+      "destination": "https://sign-project-nine.vercel.app"
+    },
+    {
+      "source": "/sign/(.*)",
+      "destination": "https://sign-project-nine.vercel.app/$1"
+    }
+  ]
+}
