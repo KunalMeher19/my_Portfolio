@@ -54,7 +54,7 @@ const ContactForm = () => {
         user_id: "LkCnVmcFfXTXGYbVF",
         template_params: {
           from_name: name,
-          to_name: "Siddharth",
+          to_name: "Ardhendu",
           email_id: email,
           message: message,
         },

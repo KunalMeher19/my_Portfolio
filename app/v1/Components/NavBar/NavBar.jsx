@@ -29,7 +29,7 @@ const NavBar = ({ check }) => {
   return (
     <div className='flex py-4 nav px-7 sm:px-6 lg:px-[8rem] justify-between items-center animate-in'>
       
-      <Link href="/" className='font-mono text-lg sm:text-xl hover:scale-105 transition-all text-btn cursor-pointer'>&lt;/SiddZ&gt;</Link>
+      <Link href="/" className='font-mono text-lg sm:text-xl hover:scale-105 transition-all text-btn cursor-pointer'>&lt;/ Z&gt;</Link>
       <div className='flex gap-6 sm:gap-6 lg:gap-[3.15rem] items-center'>
         { check == 1? (
           <Link href="/blogs" className='font-inter text-[#FFFFFF] text-lg sm:text-lg xl:text-xl tracking-wider cursor-pointer hover-underline-animation'>Blog</Link>

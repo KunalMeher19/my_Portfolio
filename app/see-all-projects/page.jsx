@@ -13,7 +13,7 @@ const Page = () => {
       description: "An AI-powered full-stack website generator — no coding needed.Just provide a detailed prompt, and Velo.new will generate your website code in under 5 minutes. You can further refine the output by submitting additional prompts.Preview the result instantly, then download the code or upload it directly to GitHub.",
       image: "/portfolio/velo.new.png",
       tech: ["vite", "React", "Node.js", "MongoDB", "Anthropic API"],
-      // website: "https://lumeroo.live/",
+      // website: "",
       github: "https://github.com/KunalMeher19/Velo.new",
     },
     {
@@ -21,16 +21,16 @@ const Page = () => {
       description: "Online Coading platform offering access to code in a collaborative environment.",
       image: "/portfolio/codebyte.png",
       tech: ["React.js", "Node.js", "Express.js", "Tailwind", "MongoDB", "Socket.IO", "Hono.js", "Docker", "Kubernetese"],
-      // website: "https://unchainedgpt.com/",
+      // website: "",
       github: "https://github.com/KunalMeher19/v1-repl-ByteBox-",
     },
     {
-      title: "Moody Player",
-      description: "Moody detector is a live mood detecting website which will detect the mood and suggest songs according to it!",
-      image: "/portfolio/moody.png",
-      tech: ["React", "Tailwind", "Vite", "Figma"],
-      // website: "https://luvo.siddz.com/",
-      github: ""
+      title: "Aura: Personal AI chatting application",
+      description: "Aura is a personal AI chatting application that provides a seamless and interactive user experience. You can paste the text, brainstorm ideas, or get quick explanations. You can pick up where you left off in your conversations.",
+      image: "/portfolio/aura.png",
+      tech: ["React","Javascript","MongoDB","Vector DB (Pinecone)","STM and LTM(RAG) memory implementation", "Vite", "Figma"],
+      website: "https://aura-x4bd.onrender.com/",
+      github: "https://github.com/KunalMeher19/Chat_GPT_React"
     },
     // {
     //   title: "ScaleOxPerts Website",
@@ -44,8 +44,8 @@ const Page = () => {
     //   description: "Real-Time chatting app similar to Discord. Features servers, channels, direct messages, and real-time communication.",
     //   image: "/bantr.webp",
     //   tech: ["React", "Node.js", "Socket.io", "Express.js", "MongoDB"],
-    //   website: "https://bantr.siddz.com/",
-    //   github: "https://github.com/SiddDevZ/Bantr",
+    //   website: "https://bantr. z.com/",
+    //   github: "https://github.com/ DevZ/Bantr",
     // }
   ];
 
@@ -54,7 +54,7 @@ const Page = () => {
     //   title: "Agency Discord Bot",
     //   description: "My old development agency Discord bot with 40+ custom commands, featuring ticketing systems, moderation tools, and client management utilities.",
     //   tech: ["Python", "Discord.py", "SQLite", "JSON"],
-    //   github: "https://github.com/SiddDevZ/Agency-Discord-Bot",
+    //   github: "https://github.com/ DevZ/Agency-Discord-Bot",
     // },
     {
       title: "KinetIA - freelance",
@@ -72,7 +72,7 @@ const Page = () => {
     //   title: "Multipurpose Discord Bot (outdated)",
     //   description: "My first ever coding project - a Discord bot with over 100+ commands covering moderation, utility, music, and many more features.",
     //   tech: ["Python", "Pycord", "APIs"],
-    //   github: "https://github.com/SiddDevZ/Multipurpose-Discord-Bot",
+    //   github: "https://github.com/ DevZ/Multipurpose-Discord-Bot",
     // }
   ];
 

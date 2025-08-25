@@ -64,7 +64,7 @@ const Projects = () => {
         <Project
           title={"UnchainedGPT"}
           image="unchained.webp"
-          link={"https://zenos.siddz.com"}
+          link={"https://zenos. z.com"}
           lang={["React", "Node.js", "Express", "APIs", "MongoDB"]}
           description={
             "ChatBot which provides the latest models for free, with a visually appealing and Responsive interface."
@@ -76,7 +76,7 @@ const Projects = () => {
         <Project
           title={"Bantr - Chatting App"}
           image="bantr.webp"
-          link={"https://bantr.siddz.com"}
+          link={"https://bantr. z.com"}
           lang={["React", "Node.js", "Express", "SocketIO", "MongoDB"]}
           description={
             "Real-Time chatting app similar to Discord. Servers, channels, direct messages, and much more.."
@@ -88,7 +88,7 @@ const Projects = () => {
         <Project
           title={"Luvo Web"}
           image="luvo-dark.webp"
-          link={"https://luvo.siddz.com"}
+          link={"https://luvo. z.com"}
           lang={["React", "TailwindCSS", "Vite", "Figma"]}
           description={
             "Luvo Web is a web development agency focused on crafting responsive and engaging websites."

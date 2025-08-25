@@ -9,6 +9,7 @@ const Terminal = () => {
   const [commandHistory, setCommandHistory] = useState([
     { text: 'Welcome to Ardhendu\'s Portfolio v2.1.8', type: 'system-title' },
     { text: '© 2025 Ardhendu. All rights reserved.', type: 'system-copyright' },
+    { text: 'Type "about" to know about me.', type: 'system' },
     { text: 'Type "help" to see available commands.', type: 'system' }
   ])
   const [currentDir, setCurrentDir] = useState('~')
@@ -58,17 +59,17 @@ const Terminal = () => {
   useEffect(() => {
     if (outputQueue.length > 0 && !isTyping) {
       setIsTyping(true)
-      
+
       const item = outputQueue[0]
       const newQueue = outputQueue.slice(1)
-      
+
       setCommandHistory(prev => [...prev, item])
       setOutputQueue(newQueue)
-      
+
       if (terminalRef.current) {
         terminalRef.current.scrollTop = terminalRef.current.scrollHeight
       }
-      
+
       let delay = 0
       if (item.type === 'command' || item.type === 'system') {
         delay = 0 // No delay for command input
@@ -86,7 +87,7 @@ const Terminal = () => {
       } else {
         delay = Math.random() * 80 + 30
       }
-      
+
       setTimeout(() => {
         setIsTyping(false)
       }, delay)
@@ -132,6 +133,9 @@ const Terminal = () => {
         output.push({ text: '/**', type: 'comment' })
         output.push({ text: ' * Fullstack developer and Gamer-Student', type: 'comment' })
         output.push({ text: ' * React, React Redux, Node.js, Express.js', type: 'comment' })
+        output.push({ text: ' * Experience with RESTful APIs, Javascript, Typescript', type: 'comment' })
+        output.push({ text: ' * Familiar with MongoDB and Vector DB like Pinecone ', type: 'comment' })
+        output.push({ text: ' * Knowledge of making AI based applications with their STM and LTM(RAG) Memory', type: 'comment' })
         output.push({ text: ' * Passionate about clean code and clean UI', type: 'comment' })
         output.push({ text: ' * Currently focused on Web and UI/UX', type: 'comment' })
         output.push({ text: ' * Located in India, Freelancing remotely', type: 'comment' })
@@ -146,7 +150,7 @@ const Terminal = () => {
         output.push({ text: 'Commands:', type: 'system' })
         const commandList = Object.keys(commands);
         const commandsPerRow = 3;
-        
+
         for (let i = 0; i < commandList.length; i += commandsPerRow) {
           const rowCommands = commandList.slice(i, i + commandsPerRow);
           const rowText = rowCommands.map(cmd => cmd.padEnd(12)).join('');
@@ -157,12 +161,12 @@ const Terminal = () => {
       case 'matrix':
         output.push({ text: '// Initializing the Matrix...', type: 'comment' })
         output.push({ text: '> Connection established', type: 'matrix' })
-        
+
         for (let i = 0; i < 4; i++) {
           const binary = Array(20).fill(0).map(() => Math.random() > 0.5 ? '1' : '0').join('')
           output.push({ text: binary, type: 'matrix' })
         }
-        
+
         output.push({ text: '', type: 'system' })
         output.push({ text: 'WAKE UP NEO!', type: 'matrix-highlight' })
         output.push({ text: 'WAKE UP NEO!', type: 'matrix-highlight' })
@@ -252,7 +256,7 @@ const Terminal = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    
+
     if (input.trim() !== '') {
       executeCommand(input)
       setInput('')
@@ -264,7 +268,7 @@ const Terminal = () => {
   return (
     <div>
       {/* Terminal-like section */}
-      <div 
+      <div
         className='border border-[#2d3748]/40 mb-10 mt-12 rounded-md bg-[#0f0f0f] backdrop-blur-sm overflow-hidden shadow-lg shadow-black/20'
         onClick={handleTerminalClick}
       >
@@ -277,9 +281,9 @@ const Terminal = () => {
             terminal: ~
           </div>
         </div>
-        
+
         {/* Terminal content */}
-        <div 
+        <div
           ref={terminalRef}
           className='p-4 text-sm font-mono h-[350px] overflow-y-auto custom-scrollbar bg-gradient-to-b from-[#121212] to-[#0a0a0a]'
           style={{
@@ -289,26 +293,25 @@ const Terminal = () => {
           onWheel={handleWheel}
         >
           {commandHistory.map((item, index) => (
-            <div 
-              key={index} 
-              className={`mb-1 ${
-                item.type === 'command' ? 'text-[#d4d4d4] font-bold' : 
-                item.type === 'error' ? 'text-[#f56565]' : 
-                item.type === 'system-header' ? 'text-white font-bold' : 
-                item.type === 'system-border' ? 'text-[#4a5568]' : 
-                item.type === 'comment' ? 'text-[#6A9955] italic' : 
-                item.type === 'code' ? 'text-[#9CDCFE]' :
-                item.type === 'hacking' ? 'text-[#4EC9B0]' :
-                item.type === 'code-prop' ? 'text-[#9CDCFE] ml-4' :
-                item.type === 'code-value' ? 'text-[#CE9178] ml-4' :
-                item.type === 'string' ? 'text-[#CE9178]' :
-                item.type === 'file-list' ? 'text-[#DCDCAA]' :
-                item.type === 'matrix' ? 'text-[#4EC9B0] font-mono' :
-                item.type === 'italic' ? 'text-[#bdbdbd] italic' :
-                item.type === 'matrix-highlight' ? 'text-[#58c94e] font-bold tracking-wider' :
-                item.type === 'ascii-art' ? 'text-[#d4d4d4] font-mono whitespace-pre' :
-                'text-[#d4d4d4]'
-              }`}
+            <div
+              key={index}
+              className={`mb-1 ${item.type === 'command' ? 'text-[#d4d4d4] font-bold' :
+                  item.type === 'error' ? 'text-[#f56565]' :
+                    item.type === 'system-header' ? 'text-white font-bold' :
+                      item.type === 'system-border' ? 'text-[#4a5568]' :
+                        item.type === 'comment' ? 'text-[#6A9955] italic' :
+                          item.type === 'code' ? 'text-[#9CDCFE]' :
+                            item.type === 'hacking' ? 'text-[#4EC9B0]' :
+                              item.type === 'code-prop' ? 'text-[#9CDCFE] ml-4' :
+                                item.type === 'code-value' ? 'text-[#CE9178] ml-4' :
+                                  item.type === 'string' ? 'text-[#CE9178]' :
+                                    item.type === 'file-list' ? 'text-[#DCDCAA]' :
+                                      item.type === 'matrix' ? 'text-[#4EC9B0] font-mono' :
+                                        item.type === 'italic' ? 'text-[#bdbdbd] italic' :
+                                          item.type === 'matrix-highlight' ? 'text-[#58c94e] font-bold tracking-wider' :
+                                            item.type === 'ascii-art' ? 'text-[#d4d4d4] font-mono whitespace-pre' :
+                                              'text-[#d4d4d4]'
+                }`}
             >
               {item.text}
             </div>

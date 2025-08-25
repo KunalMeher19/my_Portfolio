@@ -13,7 +13,7 @@ const Page = () => {
         <div className="px-6 pt-7 md:px-12 md:pt-8 lg:px-24 lg:pt-8 max-w-[100rem] pb-16 mx-auto">
           <header className="flex justify-between items-center mb-12">
             <div className="text-[#ededed] text-xl font-serif tracking-wider hover:text-white transition-colors">
-              <Link href="/">SIDDHARTH MEENA</Link>
+              <Link href="/">Ardhendu Meher</Link>
             </div>
             <nav className="flex items-center space-x-4">
               <div className="hidden md:flex items-center mr-4">
@@ -87,7 +87,7 @@ const Page = () => {
                     , focusing on connecting people without clutter.
                   </p>
                   <a
-                    href={"https://bantr.siddz.com/"}
+                    href={"https://bantr. z.com/"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 flex items-center gap-[0.55rem] group hover:cursor-pointer"

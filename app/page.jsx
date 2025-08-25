@@ -400,6 +400,16 @@ const Page = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
             {[
               {
+                title: "Aura: Personal AI chatting application",
+                description:
+                  "Aura is a personal AI chatting application that provides a seamless and interactive user experience. You can paste the text, brainstorm ideas, or get quick explanations. You can pick up where you left off in your conversations.",
+                image: "/portfolio/aura.png",
+                tech: ["React", "Javascript", "MongoDB", "Vector DB (Pinecone)", "STM and LTM(RAG) memory implementation", "Vite", "Figma"],
+                color: "#ee00ff",
+                website: "https://aura-x4bd.onrender.com/",
+                github: "https://github.com/KunalMeher19/Chat_GPT_React",
+              },  
+              {
                 title: "Codebyte",
                 description:
                   "Online Coading platform offering access to code in a collaborative environment",
@@ -419,16 +429,7 @@ const Page = () => {
                 // website: "",
                 github: "https://github.com/KunalMeher19/v1-repl-ByteBox-",
               },
-              {
-                title: "Moody Player",
-                description:
-                  "Moody detector is a live mood detecting website which will detect the mood and suggest songs according to it!",
-                image: "/portfolio/moody.png",
-                tech: ["React", "Tailwind", "Vite", "Figma"],
-                color: "#ee00ff",
-                website: "",
-                github: "",
-              },
+
               // {
               //   title: "ScaleOxPerts Website",
               //   description:
@@ -446,8 +447,8 @@ const Page = () => {
               //   image: "/bantr.webp",
               //   tech: ["React", "Node.js", "Socket.io", "Express.js"],
               //   color: "#00eeff",
-              //   website: "https://bantr.siddz.com/",
-              //   github: "https://github.com/SiddDevZ/Bantr",
+              //   website: "https://bantr. z.com/",
+              //   github: "https://github.com/ DevZ/Bantr",
               // },
             ].map((project, index) => (
               <div
@@ -487,7 +488,12 @@ const Page = () => {
                       onClick={() => window.open(project.website, "_blank")}
                       className="px-3 sm:px-4 py-1 sm:py-1.5 border-2 border-[#00eeff]/30 text-[#00eeff]/80 bg-[#00eeff]/5 rounded-xl hover:bg-[#00eeff16] transition-all ease-out hover:scale-[1.028] duration-300 text-[0.7rem] sm:text-[0.8rem] tracking-wider whitespace-nowrap"
                     >
-                      View Website
+                      {
+                        project.website ?
+                          <span className="">View Website</span>
+                          :
+                          <span className="hover:cursor-not-allowed">On Process...</span>
+                      }
                     </button>
                     {project.github && (
                       <button
@@ -613,7 +619,7 @@ const Page = () => {
                   {[
                     {
                       title: "Web Developer & Freelancing",
-                      date: "2024 - Present",
+                      date: "2025 - Present",
                       company: "Luvo Web",
                       description:
                         "I'm a web developer focused on building high-quality websites for clients across a range of industries. I’ve recently started freelancing and am excited to collaborate with startups and businesses to bring their ideas to life.",
@@ -633,10 +639,10 @@ const Page = () => {
                     },
                     {
                       title: "Junior Tech Team",
-                      date: "2024 - 2025",
+                      date: "2023 - 2024",
                       company: "Randomize Tech",
                       description:
-                        "Led development of the official fest website and event management system, handling 1000+ registrations for 5+ technical events while assisting in event organization and execution.",
+                        "I was a part of a tech event where I contributed as a team and learned about various technologies. There I can get to reach out to industry professionals and expand my network.",
                       borderColor: "border-[#00eeff]/50",
                       bgColor: "bg-[#00eeff]/20",
                       // icon: "🌐"

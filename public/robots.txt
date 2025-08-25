@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Specify sitemap location
-Sitemap: https://siddz.com/sitemap.xml
+Sitemap: https:// z.com/sitemap.xml
 
 # Disallow specific routes if needed in future
 # Disallow: /admin/ 
