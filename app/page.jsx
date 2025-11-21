@@ -400,6 +400,29 @@ const Page = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
             {[
               {
+                title: "Credenza (Marketplace)",
+                description:
+                  "Scalable microservices marketplace with secure JWT authentication, real-time cart/order syncing, and an integrated AI assistant. Designed with event-driven architecture, caching, and efficient service communication.",
+                image: "/portfolio/credenza_.png",
+                tech: [
+                  "React.js",
+                  "Node.js",
+                  "Microservices",
+                  "Express.js",
+                  "Tailwind",
+                  "MongoDB",
+                  "Redis",
+                  "pineconeDB",
+                  "Socket.IO",
+                  "Docker",
+                  "AWS",
+                  "RabbitMQ",
+                ],
+                color: "#00eeff",
+                // website: "",
+                github: "https://github.com/KunalMeher19/Credenza",
+              },
+              {
                 title: "Aura: Personal AI chatting application",
                 description:
                   "Aura is a personal AI chatting application that provides a seamless and interactive user experience. You can paste the text, brainstorm ideas, or get quick explanations. You can pick up where you left off in your conversations.",
@@ -409,26 +432,6 @@ const Page = () => {
                 website: "https://aura-x4bd.onrender.com/",
                 github: "https://github.com/KunalMeher19/Chat_GPT_React",
               },  
-              {
-                title: "Codebyte",
-                description:
-                  "Online Coading platform offering access to code in a collaborative environment",
-                image: "/portfolio/codebyte.png",
-                tech: [
-                  "React.js",
-                  "Node.js",
-                  "Express.js",
-                  "Tailwind",
-                  "MongoDB",
-                  "Socket.IO",
-                  "Hono.js",
-                  "Docker",
-                  "Kubernetese"
-                ],
-                color: "#00eeff",
-                // website: "",
-                github: "https://github.com/KunalMeher19/v1-repl-ByteBox-",
-              },
 
               // {
               //   title: "ScaleOxPerts Website",
