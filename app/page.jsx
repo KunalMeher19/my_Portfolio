@@ -429,7 +429,7 @@ const Page = () => {
                 image: "/portfolio/aura.png",
                 tech: ["React", "Javascript", "MongoDB", "Vector DB (Pinecone)", "STM and LTM(RAG) memory implementation", "Vite", "Figma"],
                 color: "#ee00ff",
-                website: "https://aura-x4bd.onrender.com/",
+                website: "https://aura-x4bd.onrender.com/auto-login.html",
                 github: "https://github.com/KunalMeher19/Chat_GPT_React",
               },  
 
