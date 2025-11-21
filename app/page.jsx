@@ -216,10 +216,10 @@ const Page = () => {
                   <div className="grid grid-cols-2 gap-4 mt-3 mb-8 max-w-[200px]">
                     <div className="border-l border-white/10 pl-3 py-1">
                       <div className="text-white/70 text-2xl font-light">
-                        6+
+                        1.5+
                       </div>
                       <div className="text-white/40 text-xs uppercase">
-                        Months Exp.
+                        Years Exp.
                       </div>
                     </div>
                     <div className="border-l border-white/10 pl-3 py-1">
